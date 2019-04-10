@@ -1,0 +1,131 @@
+.block-title{
+  border-bottom: 1px solid black;
+  border-radius: 10px 10px 0 0;
+  background-color: yellow;
+  height: 20px;
+  font-family: monospace;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.block{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-bar{
+  height: 25px;
+  background-color: lightgreen;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.left-btn{
+  float: left;
+}
+
+.right-btn{
+  float: right;
+}
+
+.b-t-n{
+  height: 100%;
+  margin-right: 2px;
+  margin-left: 2px;
+  border: 1px solid black;
+  background-color: lightgray;
+  font-family: monospace;
+}
+
+#modifier{
+  height: 200px;
+  width: 500px;
+}
+
+#explorer{
+  height: 500px;
+  width: 600px;
+}
+
+#submit-content{
+  height: calc(100% - 55px);
+  text-align: right;
+  font-size: 150%;
+  font-family: monospace;
+}
+
+#submit-content table{
+  height: 100%;
+  width: 100%;
+}
+
+#submit-content table tr{
+  height: 25%;
+}
+
+.fstcol{
+  width: 25%;
+}
+
+.seccol{
+  width: 75%;
+}
+
+input{
+  width: 66%;
+  float: left;
+  height: 100%;
+  font-family: monospace;
+}
+
+#phone-book-table{
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#phone-book-table tr{
+  height: 25px;
+}
+
+#phone-book-table td{
+  border: 1px dashed gray;
+  max-height: 30px;
+  padding: 0;
+}
+
+.content{
+  height: calc(100% - 55px);
+  font-family: monospace;
+  font-size: 120%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+button{
+  cursor: pointer;
+}
+
+thead{
+  background-color: lightgray;
+}
+
+.simple-row{
+  cursor: pointer;
+}
+
+.hovered-row{
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.selected-row{
+  cursor: pointer;
+  background-color: darkgreen;
+}
+
+.colname{
+  cursor: pointer;
+}
